@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    height: 4vw;
+    /* width: 15px; */
+    margin: -47px 10px;
+}
+header{
+    background-color:beige;
+    color: black;
+    padding: 9px;
+    font-weight: bolder;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    margin: 0px 3px;
+    position: 3px;
+}
+.shop{
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 78px;
+    padding: 0px 20px;
+}
+.navi{
+    /* background-color: black; */
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 27px;
+}
+li{
+    display: inline;
+    padding: 15px;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+.btn{
+    background-color: black;
+    border-color: white;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    height: 31px;
+    width: 77px;
+    margin: 0px 9px;
+}
+.main{
+    /* margin: 4px 23px; */
+    padding: 15px 45px;
+    /* position: relative;
+    z-index: 3px; */
+
+}
+.land{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+.started{
+   background-color: black;
+   color: white;
+   height: 30px;
+   width: 79px;
+   cursor: pointer;
+   border: 3px white;
+   border-radius: 6px;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.boxes{
+    display: grid;
+    justify-content: center;
+    padding: 34px;
+    grid-column-gap: 23px;
+    grid-row-gap: 23px;
+    grid-template-columns: auto auto auto;
+}
+.left{
+    background-color: antiquewhite;
+    height: 234px;
+    width: 324px;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* float: right; */
+}
+.right{
+    background-color: aquamarine;
+    height: 234px;
+    width: 324px;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* float: left; */
+}
+.imge{
+    padding: 0px 251px;
+    /* width: 80vw; */
+}
+.image{
+    height: 80vh;
+    padding: 0px 1px;
+    margin: 0px -50px;
+}
+.bottom{
+    background-color: aqua;
+    height: 234px;
+    width: 324px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.foot{
+    display: grid;
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 3px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    background-color: beige;
+}
+.name{
+    margin: 13px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    padding: 6px;
+    grid row-gap: 6px;
+}
+.email{
+    margin: 13px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    display: grid;
+    grid row-gap: 6px;
+}
+.msg{
+    margin: 13px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    padding: 6px;
+    grid row-gap: 6px;
+}
+.btn2{
+    margin: 13px;
+    background-color:  black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    padding: 6px;
+    grid row-gap: 6px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: beige;
+}
+.basic{
+    display: flex;
+    justify-content: center;
+}
+.standard{
+    display: flex;
+    justify-content: center;
+}
+.premium{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    background-color: black;
+}
+@media screen and (max-width:800px) {
+    .container{
+        background-color: antiquewhite;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
+.one{
+    display: grid;
+    justify-content:center;
+}
+.two{
+    display: grid;
+    justify-content:center;
+}
+.three{
+    display: grid;
+    justify-content:center;
+}
+.sign{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 64px;
+    border: 3px white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 17px;
+    /* display: flex; */
+    /* justify-content: center; */
+    }
